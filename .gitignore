@@ -1,0 +1,23 @@
+# Model weights (large)
+*.pt
+weights/
+
+# Data (too large for git)
+data/
+
+# Logs
+logs/
+
+# Cache
+*.cache
+__pycache__/
+
+# SAHI output
+sahi_results/
+runs/
+
+# Compressed archives
+*.tar.gz
+
+# OS
+.DS_Store
