@@ -28,7 +28,7 @@
 ## 实验设置
 
 - **数据集**：VisDrone-DET（6471 train / 548 val / 1610 test，10类）
-- **GPU**：NVIDIA H100 80GB × 8
+- **GPU**：NVIDIA H100 80GB（单卡训练，各实验分别使用不同GPU）
 - **框架**：PyTorch 2.6.0 + CUDA 12.4, Ultralytics 8.4.48
 - **训练**：100 epochs, batch=32(n)/16(s), imgsz=640, SGD, lr0=0.01, patience=20
 - **数据增强**：Mosaic=1.0, MixUp=0.15, Copy-Paste=0.3, HSV扰动, 旋转/翻转
